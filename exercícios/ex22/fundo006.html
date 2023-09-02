@@ -5,18 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Disposição de imagem</title>
     <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        p {
+            margin-top: 10px;
+            text-indent: 2em;
+            font-size: 1.5em;
+        }
+
         body {
+            padding: 20px;
             height: 100vh;
-            background-color: black;
-            background-image: url(imagens/wallpaper002.jpg);
-            background-repeat: no-repeat;
-            background-position: center;
+            background: black url(imagens/wallpaper002.jpg) center no-repeat fixed;
             background-size: cover;
+
+            /*Shorthand - Background
+            color > image > position > repeat [size] > attachment*/
         }
 
         main {
             background-color: white;
-            width: 400px;
+            max-width: 600px;
             padding: 10px;
             margin: auto;
             border: 1px solid darkblue;
@@ -28,6 +40,10 @@
     <main>
         <h1>Teste de Imagem de Fundo</h1>
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus blanditiis accusamus provident necessitatibus neque nobis quod consequuntur. Ratione tempore sint dignissimos quam ut labore impedit, porro voluptate odit cum. Reprehenderit. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam nostrum, voluptatibus iste, labore omnis quae voluptates suscipit distinctio officiis, recusandae nobis dolorum odio provident perspiciatis impedit laboriosam qui vitae? Quis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis magni voluptatibus eum laudantium fugit exercitationem atque rerum veritatis quidem officia id eveniet dolore numquam, corporis facere inventore. Obcaecati, vel itaque!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis illum error aperiam, blanditiis a architecto quod ullam dolores laudantium aspernatur, obcaecati ipsam tenetur reprehenderit labore perspiciatis deleniti cupiditate? Culpa, iure.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis illum error aperiam, blanditiis a architecto quod ullam dolores laudantium aspernatur, obcaecati ipsam tenetur reprehenderit labore perspiciatis deleniti cupiditate? Culpa, iure.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis illum error aperiam, blanditiis a architecto quod ullam dolores laudantium aspernatur, obcaecati ipsam tenetur reprehenderit labore perspiciatis deleniti cupiditate? Culpa, iure.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis illum error aperiam, blanditiis a architecto quod ullam dolores laudantium aspernatur, obcaecati ipsam tenetur reprehenderit labore perspiciatis deleniti cupiditate? Culpa, iure.</p>
     </main>
     
 </body>
