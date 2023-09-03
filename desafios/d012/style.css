@@ -1,0 +1,18 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#titulo {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+h1{
+    font-family;
+}
+
+p {
+    margin-top: 1em;
+}
